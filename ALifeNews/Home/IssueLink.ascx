@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="IssueLink.ascx.cs" Inherits="ALifeNews.Home.IssueLink" %>
+<a href="IssueEdit.aspx?IssueNum=<%: Request["IssueNum"] %>" class="btn btn-primary">Back to Issues</a>
